@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anonyme.nookclock"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="7"
+8-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="7" />
+9-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:6:9-35
+13        android:label="Clock"
+13-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:7:9-30
+14        android:supportsRtl="true" >
+14-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:8:9-35
+15        <activity
+15-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:10:9-19:20
+16            android:name="com.anonyme.nookclock.MainActivity"
+16-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:12:9-58
+17            android:label="Clock"
+17-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:11:9-30
+18            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+18-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:13:9-67
+19            <intent-filter>
+19-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:15:9-18:25
+20                <action android:name="android.intent.action.MAIN" />
+20-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:16:13-65
+20-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:16:21-62
+21
+22                <category android:name="android.intent.category.LAUNCHER" />
+22-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:17:13-73
+22-->/home/user/Projects/nookclock/app/src/main/AndroidManifest.xml:17:23-70
+23            </intent-filter>
+24        </activity>
+25    </application>
+26
+27</manifest>

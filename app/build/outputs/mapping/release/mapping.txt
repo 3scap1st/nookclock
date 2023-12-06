@@ -1,0 +1,28 @@
+# compiler: R8
+# compiler_version: 1.5.64
+# min_api: 7
+# pg_map_id: b36271b
+com.anonyme.nookclock.MainActivity -> com.anonyme.nookclock.MainActivity:
+    android.widget.TextView dayTextView -> c
+    android.widget.TextView timeTextView -> b
+    android.os.Handler handler -> a
+    android.widget.TextView batteryTextView -> e
+    android.widget.TextView dateTextView -> d
+    void access$000(com.anonyme.nookclock.MainActivity) -> a
+    float getMaxTextSize() -> a
+    1:1:void updateBatteryPercentage():0:0 -> b
+    1:1:void updateBatteryInfo():0 -> b
+    1:1:void updateClock():0 -> b
+    2:2:void updateTemperature():0:0 -> b
+    2:2:void updateBatteryInfo():0 -> b
+    2:2:void updateClock():0 -> b
+    1:1:float getMaxTextSizeForTime():0:0 -> onCreate
+    1:1:void onCreate(android.os.Bundle):0 -> onCreate
+    2:2:void onCreate(android.os.Bundle):0:0 -> onCreate
+    3:3:void startClock():0:0 -> onCreate
+    3:3:void onCreate(android.os.Bundle):0 -> onCreate
+com.anonyme.nookclock.MainActivity$1 -> a.a.a.a:
+    com.anonyme.nookclock.MainActivity this$0 -> a
+    1:1:android.os.Handler com.anonyme.nookclock.MainActivity.access$100(com.anonyme.nookclock.MainActivity):0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void run():0:0 -> run

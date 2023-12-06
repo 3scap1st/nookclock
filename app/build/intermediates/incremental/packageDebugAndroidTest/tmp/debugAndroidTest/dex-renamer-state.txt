@@ -1,0 +1,4 @@
+#Thu Nov 30 19:27:28 AMT 2023
+base.0=/home/user/Projects/nookclock/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

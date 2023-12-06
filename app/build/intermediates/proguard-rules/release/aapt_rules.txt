@@ -1,0 +1,2 @@
+# Referenced at /home/user/Projects/nookclock/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:15
+-keep class com.anonyme.nookclock.MainActivity { <init>(); }
